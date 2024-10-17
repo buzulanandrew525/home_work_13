@@ -1,0 +1,26 @@
+.animation {
+    animation: animationName 5s infinite;
+}
+
+@keyframes animationName {
+    from, to {
+        fill: black;
+        stroke:antiquewhite;
+    }
+    20% {
+        fill: blue;
+        stroke:#ff0000;
+    }
+    40% {
+        fill: green;
+        stroke:yellow;
+    }
+    60% {
+        fill: pink;
+        stroke:orange;
+    }
+    80% {
+        fill: grey;
+        stroke:#15ebe5;
+    }
+}
